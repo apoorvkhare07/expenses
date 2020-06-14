@@ -1,0 +1,49 @@
+.button {
+  border: 0px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  cursor: pointer;
+  height: 37px;
+  font-size: 15px;
+  line-height: 35px;
+  padding: 0 18px;
+  text-decoration: none;
+  user-select: none;
+  width: fit-content;
+  white-space: nowrap;
+
+  &.simple {
+    color: $dark-grey;
+    background-color: white;
+    box-shadow: 0 1px 7px rgba(0,0,0,.05);
+  }
+
+  &.flat {
+    color: white;
+    background-color: transparent;
+    box-shadow: none;
+  }
+
+  &.dark {
+    color: white;
+    background-color: $dark-grey;
+    box-shadow: 0 1px 7px rgba(0,0,0,.05);
+  }
+}
+
+.signin-button {
+  margin-top: $s-size;
+}
+
+.signin-button__content {
+
+}
+
+.signin-button__icon {
+  height: 25px;
+  padding-right: 8px;
+  > img {
+    height: 16px;
+    width: auto;
+  }
+}

@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: $dark-grey;
+  font-family: 'Open Sans';
+  font-size: $m-size;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Noto Serif';
+}
+
+button {
+  cursor: pointer;
+  font-family: 'Open Sans';
+}
+
+button:disabled {
+  cursor: default;
+}
+
+button:focus {
+  outline: none;
+}
+
+input {
+  font-family: 'Open Sans';
+}
+
+.is-active {
+  font-weight: bold;
+}
